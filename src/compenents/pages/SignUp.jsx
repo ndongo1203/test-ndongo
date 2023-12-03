@@ -16,6 +16,13 @@ function SignUp() {
           <FormInput type="text" id="lastName" placeholder="Last Name" required />
           <FormInput type="email" id="email" placeholder="Email" required />
           <FormInput type="password" id="password" placeholder="Password" required />
+          <style jsx>{`
+            @media (max-width: 768px) {
+              .w-50 {
+                width: 100% !important;
+                }
+              }
+            `}</style>
           <div className="form-check mx-auto w-50">
             <input className="form-check-input required" type="checkbox" value="" id="flexCheckDefault" required />
             <label className="form-check-label" htmlFor="flexCheckDefault">
